@@ -1,7 +1,15 @@
-.quadrado {
-  background-color: red;
+.btn1 {
   width: 100px;
-  height: 100px;
+  height: 35px;
+  background-color: purple;
+  color: white;
+}
+
+.btn2 {
+  width: 100px;
+  height: 35px;
+  background-color: purple;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

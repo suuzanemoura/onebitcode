@@ -1,5 +1,18 @@
-.quadrado{
-    background-color: red;
-    width: 100px;
-    height: 100px;
+$btn-color: purple;
+$btn-font-color: white;
+$btn-width: 100px;
+$btn-height: 35px;
+
+.btn1 {
+    width: $btn-width;
+    height: $btn-height;
+    background-color: $btn-color;
+    color: $btn-font-color;
+}
+
+.btn2 {
+    width: $btn-width;
+    height: $btn-height;
+    background-color: $btn-color;
+    color: $btn-font-color;
 }
