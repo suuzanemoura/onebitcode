@@ -1,21 +1,2 @@
-.classe1{
-    ul{
-        background-color: bisque;
-    }
-
-    li{
-        background-color: burlywood;
-        padding: 10px 0;
-    }
-
-    button{
-        background-color: chocolate;
-        color: white;
-        cursor: pointer;
-
-        &:hover{
-            background-color: brown;
-            transition: 500ms;
-        }
-    }
-}
+@import "./colors/colors.scss";
+@import "./pages/home.scss";
