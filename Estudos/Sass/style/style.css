@@ -1,15 +1,18 @@
-.btn1 {
-  width: 100px;
-  height: 35px;
-  background-color: purple;
-  color: white;
+.classe1 ul {
+  background-color: bisque;
 }
-
-.btn2 {
-  width: 100px;
-  height: 35px;
-  background-color: purple;
+.classe1 li {
+  background-color: burlywood;
+  padding: 10px 0;
+}
+.classe1 button {
+  background-color: chocolate;
   color: white;
+  cursor: pointer;
+}
+.classe1 button:hover {
+  background-color: brown;
+  transition: 500ms;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,18 +1,21 @@
-$btn-color: purple;
-$btn-font-color: white;
-$btn-width: 100px;
-$btn-height: 35px;
+.classe1{
+    ul{
+        background-color: bisque;
+    }
 
-.btn1 {
-    width: $btn-width;
-    height: $btn-height;
-    background-color: $btn-color;
-    color: $btn-font-color;
-}
+    li{
+        background-color: burlywood;
+        padding: 10px 0;
+    }
 
-.btn2 {
-    width: $btn-width;
-    height: $btn-height;
-    background-color: $btn-color;
-    color: $btn-font-color;
+    button{
+        background-color: chocolate;
+        color: white;
+        cursor: pointer;
+
+        &:hover{
+            background-color: brown;
+            transition: 500ms;
+        }
+    }
 }
