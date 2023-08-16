@@ -1,23 +1,13 @@
-.btn, .btn-yellow, .btn-pink, .btn-purple {
-  width: 125px;
-  padding: 10px 0;
-  border-radius: 20px;
-  display: block;
-  margin-top: 10px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.btn-purple {
-  background-color: darkorchid;
+.title {
+  background-color: purple;
   color: white;
-}
-
-.btn-pink {
-  background-color: palevioletred;
-  color: white;
-}
-
-.btn-yellow {
-  background-color: palegoldenrod;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
