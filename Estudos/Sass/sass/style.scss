@@ -1,47 +1,27 @@
-// .btn{
-//     width: 125px;
-//     padding: 10px 0;
-//     border-radius: 20px;
-//     display: block;
-//     margin-top: 10px;
-
-//     &.btn-purple{
-//         background-color: darkorchid;
-//         color: white;
-//     }
-
-//     &.btn-pink{
-//         background-color: palevioletred;
-//         color: white;
-//     }
-
-//     &.btn-yellow{
-//         background-color: palegoldenrod;
-//     }
-// }
-
-
-.btn{
-    width: 125px;
-    padding: 10px 0;
-    border-radius: 20px;
-    display: block;
-    margin-top: 10px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.btn-purple{
-    @extend .btn;
-    background-color: darkorchid;
-    color: white;
+
+@function color-title($background-color){
+    @if(lightness($background-color) > 50){
+        @return black;
+    } @else{
+        @return white
+    }
 }
 
-.btn-pink{
-    @extend .btn;
-    background-color: palevioletred;
-    color: white;
+@mixin background-color-mixin($color){
+    background-color: $color;
+    color: color-title($color)
 }
 
-.btn-yellow{
-    @extend .btn;
-    background-color: palegoldenrod;
+.title{
+    @include background-color-mixin(purple);
+    height: 100vh;
 }
+
+//Como transformar em uma linha só
+//sass (caminho) sass/style.scss:style/style.css --style compressed
