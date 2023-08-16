@@ -1,2 +1,15 @@
-@import "./colors/colors.scss";
-@import "./pages/home.scss";
+@mixin text-style($color, $font-size, $font-family){
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.texts{
+    h1{
+        @include text-style(chocolate, 34px, Arial)
+    }
+    
+    p{
+        @include text-style(brown, 22px, sans-serif)
+    }
+}
