@@ -1,12 +1,23 @@
-.texts h1 {
-  color: chocolate;
-  font-size: 34px;
-  font-family: Arial;
+.btn, .btn-yellow, .btn-pink, .btn-purple {
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
 }
-.texts p {
-  color: brown;
-  font-size: 22px;
-  font-family: sans-serif;
+
+.btn-purple {
+  background-color: darkorchid;
+  color: white;
+}
+
+.btn-pink {
+  background-color: palevioletred;
+  color: white;
+}
+
+.btn-yellow {
+  background-color: palegoldenrod;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,15 +1,24 @@
-@mixin text-style($color, $font-size, $font-family){
-    color: $color;
-    font-size: $font-size;
-    font-family: $font-family;
+.btn{
+    width: 125px;
+    padding: 10px 0;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
 }
 
-.texts{
-    h1{
-        @include text-style(chocolate, 34px, Arial)
-    }
-    
-    p{
-        @include text-style(brown, 22px, sans-serif)
-    }
+.btn-purple{
+    @extend .btn;
+    background-color: darkorchid;
+    color: white;
+}
+
+.btn-pink{
+    @extend .btn;
+    background-color: palevioletred;
+    color: white;
+}
+
+.btn-yellow{
+    @extend .btn;
+    background-color: palegoldenrod;
 }
